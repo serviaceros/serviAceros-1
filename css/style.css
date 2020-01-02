@@ -280,6 +280,7 @@ h1, h2, h3, h4, h5,
   .site-navbar ul {
     font-family: "Oswald", sans-serif;
     text-transform: uppercase;
+    list-style: none;
     font-weight: 300; }
   .site-navbar .site-logo {
     position: relative;
@@ -302,7 +303,7 @@ h1, h2, h3, h4, h5,
       display: inline-block; }
       .site-navbar .site-navigation .site-menu > li > a {
         padding: 5px 20px;
-        color: rgba(255, 255, 255, 0.5);
+        color: rgba(0, 0, 0, 0.5);
         display: inline-block;
         text-decoration: none !important; }
         .site-navbar .site-navigation .site-menu > li > a:hover {
@@ -551,7 +552,7 @@ h1, h2, h3, h4, h5,
   .sticky-wrapper .site-navbar {
     border-bottom: 1px solid rgba(255, 255, 255, 0.2); }
     .sticky-wrapper .site-navbar .site-logo a {
-      color: #fff; }
+      color: rgba(0, 0, 0, 0.6); }
     .sticky-wrapper .site-navbar ul li a {
       color: rgba(255, 255, 255, 0.7); }
       .sticky-wrapper .site-navbar ul li a:hover {
